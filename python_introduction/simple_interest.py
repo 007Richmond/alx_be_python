@@ -1,15 +1,7 @@
-# Assign values
-number1 = 10
-number2 = 5
+principal = 1000
+rate = 0.05
+time = 3
 
-# Perform operations
-sum_result = number1 + number2
-diff_result = number1 - number2
-product_result = number1 * number2
+interest = principal * rate * time
 
-# Print results
-print(f"Addition of {number1} and {number2} is {sum_result}")
-print(f"Subtraction of {number1} and {number2} is {diff_result}")
-print(f"Multiplication of {number1} and {number2} is {product_result}")
-
-      
+print(f"The simple interest is: {interest}")
