@@ -1,9 +1,9 @@
 #Get user inputs
-income = float(input("Enter your monthly income: "))
-expenses = float(input("Enter your monthly expenses: "))
+monthly_income = float(input("Enter your monthly income: "))
+monthly_expenses = float(input("Enter your monthly expenses: "))
 
 #Calculate monthly savings
-monthly_savings = income - expenses
+monthly_savings = monthly_income - monthly_expenses
 
 #Calculate projected annual savings with 5% interest
 annual_savings = monthly_savings * 12
